@@ -5,7 +5,7 @@ Geodesic Edge Betweenness Centrality (gebc) is a measure of network centrality m
 ## Contents
 *runScripts/epoxy*: 
 
-- *analyseBetweennessCentrality.py*: computation of gebc for five networks made by cross-linking in-silico a DGEBA-DDS system with 127000 atoms (see https://pubs.acs.org/action/showCitFormats?doi=10.1021/acs.jctc.1c00423&ref=pdf). Requires the "moltools" repository. Input files in *data/epoxy/largestMolecularGroups_monomersOnly*; output in *results/epoxy*. 
+- *analyseBetweennessCentrality.py*: computation of gebc for five networks made by cross-linking in-silico a DGEBA-DDS system with 127000 atoms (see https://pubs.acs.org/action/showCitFormats?doi=10.1021/acs.jctc.1c00423&ref=pdf). Input files in *data/epoxy/largestMolecularGroups_monomersOnly*; output in *results/epoxy*. 
 
 - *analyseBetweennessCentrality_test.py*: computation of gebc for a few test networks, some of them with high geometrical symmetry.
 
@@ -45,3 +45,7 @@ Geodesic Edge Betweenness Centrality (gebc) is a measure of network centrality m
 *dot*:
 
     graph representations in dot format, for illustration/debugging purposes only.
+
+*gebc*:
+
+    the class that actually carries out the gebc calculation.
